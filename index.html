@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Title of the page that will appear in the browser tab -->
+    <title>My Portfolio</title>
+
+    <!-- Meta description for SEO purposes -->
+    <meta name="description" content="This is my online portfolio">
+
+    <!-- Link to the stylesheet -->
+    <link rel="stylesheet" type="text/css" href="proto.css">
+</head>
+
+<body>
+    <!-- Navigation bar - can contain links to different sections of the website -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about-me">About Me</a></li>
+                <li><a href="#Skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main section containing the introduction and a brief summary about yourself -->
+    <main>
+        <section id="introduction">
+            <h1>Introduction</h1>
+            <p style="text-align: justify;"></p>
+        </section>
+
+        <!-- About Me section containing more detailed information about yourself -->
+        <section id="about-me">
+            <h2>About Me</h2>
+            <p style="text-align: justify;"></p>
+            <!-- List of your skills -->
+        <section id="Skills">    
+            <h3>Skills</h3>
+            <ul>
+                <li>skill1</li>
+                <li>skill2</li>
+                <li>skill3</li>
+            </ul>
+        </section>
+
+        <!-- Projects section containing images and descriptions of your past projects -->
+        <section id="projects">
+            <h2>My Projects</h2>
+            <div class="project">
+                <img src="" alt="">
+                <h3>Project 1</h3>
+                <p>Description of project 1.</p>
+            </div>
+
+            <div class="project">
+                <img src="project2.png" alt="Project 2">
+                <h3>Project 2</h3>
+                <p>Description of project 2.</p>
+            </div>
+
+            <div class="project">
+                <img src="project3.png" alt="Project 3">
+                <h3>Project 3</h3>
+                <p>Description of project 3.</p>
+            </div>
+        </section>
+
+        <!-- Contact section containing a form for users to contact you -->
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form action="mailto:munjedalassooliy@gmail.com" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <input type="submit" value="Send Message">
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer containing copyright information -->
+    <footer>
+        <p>Copyright © 2021 My Portfolio.</p>
+    </footer>
+</body>
+</html>
